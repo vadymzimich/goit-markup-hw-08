@@ -490,6 +490,7 @@ img {
 
 .modal {
   position: absolute;
+  max-height: 609px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -559,6 +560,10 @@ img {
 .order-form__field {
   display: block;
   margin-bottom: 10px;
+}
+
+.order-form__field--comment {
+  margin-bottom: 0;
 }
 
 .order-form__name {
@@ -631,7 +636,7 @@ img {
 }
 
 .policy {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: 400;

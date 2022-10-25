@@ -7,6 +7,10 @@
   margin-bottom: 10px;
 }
 
+.order-form__field--comment {
+  margin-bottom: 0;
+}
+
 .order-form__name {
   display: block;
   margin-bottom: 4px;
@@ -91,7 +95,7 @@
 }
 
 .policy {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: 400;
