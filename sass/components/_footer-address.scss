@@ -1,0 +1,36 @@
+.address__actual-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-color);
+  text-decoration: none;
+  display: block;
+}
+
+.address__item {
+  margin-bottom: 9px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Contacts in footer */
+
+.address__footer-connection {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-contacts-color);
+  text-decoration: none;
+  display: inline-block;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--hover-focus-color);
+  }
+}

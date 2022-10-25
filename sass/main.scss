@@ -1,0 +1,28 @@
+@import "./utils/variables";
+@import "./base/reset";
+@import "./base/common";
+
+// Webstudio page and header + footer
+@import "./components/header";
+@import "./components/header-logo";
+@import "./components/header-nav";
+@import "./components/header-contacts";
+@import "./components/header-menu";
+@import "./components/hero";
+@import "./components/backdrop";
+@import "./components/hero-modal";
+@import "./components/order-form";
+@import "./components/benefits";
+@import "./components/work";
+@import "./components/team";
+@import "./components/soc-list";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/footer-address";
+@import "./components/footer-soc";
+@import "./components/footer-form";
+
+// Portfolio page
+@import "./components/projects-filter";
+@import "./components/projects-card";
+@import "./components/projects-overlay";

@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--header-backgroun-color);
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

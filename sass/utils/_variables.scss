@@ -1,0 +1,41 @@
+:root {
+  /* Text colors */
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --title-text-color: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+
+  /* Logo text colors */
+  --logo-text-color: #2196f3;
+  --header-color: #000000;
+  --footer-color: #ffffff;
+
+  /* Function color */
+  --hover-focus-color: #2196f3;
+  --button-color: #2196f3;
+
+  /* Backgroung colors */
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --header-backgroun-color: #ffffff;
+  --team-section-color: #f5f4fa;
+
+  /* Box color */
+  --box-color: #ffffff;
+  --projects-card-border: #eeeeee;
+
+  /* Icons colors */
+  --main-icon-color: #afb1b8;
+  --hover-focus-icon-color: #ffffff;
+
+  /* Fonts */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  font-family: var(--primary-font);
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
